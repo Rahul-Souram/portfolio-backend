@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "workpages",
+  "info": {
+    "singularName": "workpage",
+    "pluralName": "workpages",
+    "displayName": "workpage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "personalProjectDescription": {
+      "type": "richtext"
+    },
+    "workProjectDescription": {
+      "type": "richtext"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "Experience": {
+      "type": "richtext"
+    }
+  }
+}

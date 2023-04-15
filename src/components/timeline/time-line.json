@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_timeline_time_lines",
+  "info": {
+    "displayName": "TimeLine"
+  },
+  "options": {},
+  "attributes": {
+    "timeperiod": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
