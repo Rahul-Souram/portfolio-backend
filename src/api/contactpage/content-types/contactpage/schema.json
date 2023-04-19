@@ -25,6 +25,12 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "linkedIn": {
+      "type": "string"
     }
   }
 }
